@@ -1,0 +1,26 @@
+{
+  "name": "node-es6-cucumber",
+  "version": "1.0.0",
+  "description": "## Install",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --require-module='@babel/register'",
+    "lint:fix": "npx eslint --fix src/test",
+    "lint": "npx eslint src/test"
+  },
+  "keywords": [],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/register": "^7.17.7",
+    "@cucumber/cucumber": "^8.2.2",
+    "babel-jest": "^28.1.0",
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jest": "^26.2.2",
+    "jest": "^28.1.0"
+  }
+}
